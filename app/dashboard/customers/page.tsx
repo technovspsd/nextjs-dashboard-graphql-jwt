@@ -1,3 +1,4 @@
+
 import CustomersTable from '@/app/ui/customers/table';
 import { Metadata } from 'next';
 import { Suspense } from 'react';

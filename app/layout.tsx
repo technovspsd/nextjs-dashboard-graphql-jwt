@@ -4,24 +4,24 @@ import { Metadata } from 'next';
  
 export const metadata: Metadata = {
   title: {
-    template: '%s | Acme Dashboard | @lllariogonzalez',
-    default: 'Acme Dashboard by @lllariogonzalez',
+    template: '%s | Dashboard | @technovspsd',
+    default: 'Dashboard by @technovspsd',
   },
   description: 'The official Next.js Course Dashboard, built with App Router.',
   metadataBase: new URL('https://nextjs-dashboard-acme.vercel.app'),
-  authors: [{name: 'Mario Gonzalez', url:'https://www.linkedin.com/in/lllariogonzalez'}],
+  authors: [{name: 'Vivek Singh Polywal', url:'https://www.linkedin.com/in/viveksinghpolywal'}],
   keywords: ['Next.js 14', 'Acme', 'Dashboard', 'nextjs.org/learn', 'Server Actions'],
   openGraph: {
-    title: 'Acme Dashboard',
+    title: 'Dashboard',
     description: 'The official Next.js Learn Dashboard built with App Router.',
     url: 'https://nextjs-dashboard-acme.vercel.app',
     type: 'website',
   },
   twitter: {
     site: '@acme',
-    description:'The official Next.js Learn Dashboard built with App Router.',
-    title:'Acme Dashboard by @lllariogonzalez',
-    creator:'@lllariogonzalez',
+    description:'',
+    title:'Dashboard by @technovspsd',
+    creator:'@technovspsd',
   },
 };
 
