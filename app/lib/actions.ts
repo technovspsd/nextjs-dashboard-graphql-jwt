@@ -137,7 +137,7 @@ const LOGIN_MUTATION = gql`
 `;
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000', // Change this to your GraphQL server URL
+  uri: 'https://nextjs-dashboard-graphql-jwt.vercel.app', // Change this to your GraphQL server URL
   cache: new InMemoryCache(),
   headers: {
     authorization: typeof window !== 'undefined' ? localStorage.getItem('token') || '' : '',
